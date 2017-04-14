@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_navi_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.myapplication.NaviBottomActivity">
+<FrameLayout
+    android:id="@+id/frame"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></FrameLayout>
+    <RadioGroup
+        android:orientation="horizontal"
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="50dp">
+        <RadioButton
+            android:text="微信"
+            android:id="@+id/rb_wx"
+            android:layout_weight="1"
+            style="@style/navi_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:text="通讯录"
+            android:id="@+id/rb_tx"
+            android:layout_weight="1"
+            style="@style/navi_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:text="发现"
+            android:id="@+id/rb_fx"
+            android:layout_weight="1"
+            style="@style/navi_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:text="我的"
+            android:id="@+id/rb_wd"
+            android:layout_weight="1"
+            style="@style/navi_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+</LinearLayout>
